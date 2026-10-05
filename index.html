@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sulodonto | Clínica Odontológica em Sapucaia do Sul</title>
+<meta name="description" content="Clínica odontológica no Centro de Sapucaia do Sul. Atendimento respeitoso e acolhedor. Monte sua mensagem e agende pelo WhatsApp.">
+<meta name="theme-color" content="#2A1B3D">
+<link rel="canonical" href="https://sulodonto.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Sulodonto | Clínica Odontológica em Sapucaia do Sul">
+<meta property="og:description" content="Atendimento respeitoso e acolhedor no Centro de Sapucaia do Sul. Agende pelo WhatsApp.">
+<meta property="og:url" content="https://sulodonto.com.br/">
+<!-- og:image: adicionar quando houver foto real autorizada (1200x630, WebP/JPG) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<!-- JSON-LD (Dentist): descomentar só depois de validar telefone, horários e redes com a clínica.
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dentist","name":"Sulodonto","url":"https://sulodonto.com.br/","telephone":"+55 51 99146-5694",
+"address":{"@type":"PostalAddress","streetAddress":"R. Otaviano Silveira, 115","addressLocality":"Sapucaia do Sul","addressRegion":"RS","postalCode":"93214-500","addressCountry":"BR"}}
+</script> -->
+</head>
+<body>
+
+<a class="skip" href="#main">Pular para o conteúdo</a>
+<header id="top"><div class="wrap nav">
+<a class="logo" href="#top" aria-label="Sulodonto, início">Sulo<i>donto</i></a>
+<nav class="links" aria-label="Principal"></nav>
+<button class="ib" id="theme" aria-label="Alternar tema claro e escuro"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg></button>
+<a class="btn wa" data-wa="header" href="#">Agendar Consulta</a>
+<button class="ib" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div><nav id="menu" aria-label="Menu móvel"></nav></header>
+
+<main id="main" tabindex="-1">
+<section class="hero"><div class="wrap">
+<div>
+<h1 id="h-title"></h1>
+<p class="lead" id="h-sub"></p>
+<div class="seals" id="seals"></div>
+<p style="margin-top:22px;font-size:.95rem" id="h-micro"></p>
+</div>
+<form class="builder" id="builder" aria-labelledby="b-h" onsubmit="return false">
+<h2 id="b-h">Monte sua mensagem</h2>
+<p style="margin:0;font-size:.97rem">Escolha o que combina com você e envie pelo WhatsApp. Tudo é opcional.</p>
+<fieldset><legend>Como podemos ajudar?</legend><div class="chips" id="c-reason"></div></fieldset>
+<fieldset><legend>Quando prefere ser atendido(a)?</legend><div class="chips" id="c-period"></div></fieldset>
+<fieldset><label class="l" for="nm">Como prefere ser chamado(a)? Nome social é bem-vindo.</label><input type="text" id="nm" autocomplete="given-name" maxlength="40" placeholder="Seu nome"></fieldset>
+<div class="preview" id="pv" aria-live="polite"></div>
+<a class="btn wa" data-wa="hero" href="#" style="width:100%">Agendar Consulta no WhatsApp</a>
+<p class="hint">Não envie dados de saúde na mensagem. A equipe conversa sobre isso com você no atendimento. Nada é guardado neste site.</p>
+</form>
+</div></section>
+
+<div class="trust"><div class="wrap"><ul id="trust"></ul></div></div>
+
+<section id="sobre"><div class="wrap split">
+<div class="rv"><h2 id="a-title"></h2><p id="a-copy"></p><p id="a-more"></p><p class="note" id="a-note"></p></div>
+<div class="photo rv" style="border-radius:28px 140px 28px 28px">Foto real da equipe<small>[Placeholder: enviar foto autorizada]</small></div>
+</div></section>
+
+<section id="equipe"><div class="wrap">
+<h2 class="rv">Quem cuida de você</h2><p class="rv">Nome, formação e CRO só serão publicados com dados oficiais e atuais.</p>
+<div class="team" id="team"></div>
+</div></section>
+
+<section id="agendamento" class="bg-lav"><div class="wrap">
+<h2 class="rv">Do primeiro contato à consulta</h2>
+<p class="rv">Sequência esperada do agendamento. [A clínica deve confirmar cada etapa.]</p>
+<ol class="steps rv" id="steps"></ol>
+</div></section>
+
+<section id="tratamentos"><div class="wrap">
+<h2 class="rv">Tratamentos</h2><p class="rv">Espaços reservados: só entram procedimentos confirmados pela Sulodonto. Cada card abre o WhatsApp com o nome do tratamento.</p>
+<div class="grid" id="treatments"></div>
+</div></section>
+
+<section id="diferenciais" class="bg-lav"><div class="wrap">
+<h2 class="rv">Cuidado que vai além do consultório.</h2>
+<div class="grid" id="benefits"></div>
+</div></section>
+
+<section><div class="wrap"><div class="inclusion split rv">
+<div><h2 id="i-title"></h2><p id="i-copy"></p></div>
+<div><p class="note">Futuros formulários não pedirão gênero sem necessidade, permitirão nome social e não coletarão dados sensíveis sem base clínica.</p><p class="note">As fotos desta seção devem ser reais e autorizadas, com diversidade representada de forma autêntica.</p></div>
+</div></div></section>
+
+<section id="avaliacoes" class="bg-lav"><div class="wrap">
+<h2 class="rv">Experiências de quem já passou pela Sulodonto.</h2>
+<div class="grid" id="testimonials"></div>
+</div></section>
+
+<section id="localizacao"><div class="wrap">
+<h2 class="rv">Estamos em Sapucaia do Sul.</h2>
+<div class="loc">
+<div><address id="addr"></address><p id="hours"></p>
+<ul class="hrs" id="hours-list" aria-label="Horários de atendimento"></ul>
+<div class="soc" id="social"></div>
+<div class="row"><a class="btn wa" data-wa="location" href="#">Agendar pelo WhatsApp</a><a class="btn ghost" id="route" target="_blank" rel="noopener" href="#">Como chegar</a><a class="btn ghost" id="call" href="#" hidden>Ligar</a></div></div>
+<div class="map" id="map"><button class="btn ghost" id="loadmap">Carregar mapa</button></div>
+</div></div></section>
+
+<section id="faq" class="bg-lav"><div class="wrap" style="max-width:840px">
+<h2 class="rv">Perguntas frequentes</h2><div id="faqs" style="margin-top:28px"></div>
+</div></section>
+
+<section><div class="wrap"><div class="final rv">
+<h2>Vamos cuidar do seu sorriso?</h2>
+<p>Converse com a equipe da Sulodonto e encontre o melhor próximo passo para o seu atendimento.</p>
+<a class="btn wa" data-wa="final" href="#" style="margin-top:12px">Agendar pelo WhatsApp</a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap cols">
+<div><a class="logo" href="#top">Sulo<i>donto</i></a><p id="f-sum"></p></div>
+<div><strong style="color:var(--plum)">Contato</strong><br><span id="f-addr"></span><br><a id="f-wa" href="#"></a><br><span id="f-hours"></span></div>
+<div><strong style="color:var(--plum)">Institucional</strong><br><a href="#">Política de Privacidade [a publicar]</a><br><span>Responsável técnico e CRO: [a validar]</span><br><span>Redes sociais oficiais: [links a fornecer]</span></div>
+</div>
+<div class="wrap" style="margin-top:32px;font-size:.85rem">© <span id="yr"></span> Sulodonto. Página informativa, não substitui avaliação profissional.</div></footer>
+
+<div class="bar"><a class="btn ghost" id="bar-route" target="_blank" rel="noopener" href="#">Como chegar</a><a class="btn wa" data-wa="floating" href="#">Agendar no WhatsApp</a></div>
+<noscript><div class="wrap">Ative o JavaScript para ver o conteúdo completo. Para agendar agora, chame a Sulodonto no WhatsApp: <a href="https://wa.me/5551991465694">(51) 99146-5694</a>.</div></noscript>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
